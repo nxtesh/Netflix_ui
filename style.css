@@ -316,3 +316,169 @@ input[type="radio"] {
     font-size: 22px;
   }
 }
+
+/* signin----------------------------- */
+#signin {
+  text-decoration: none;
+  color: white;
+}
+.darkbox-signin {
+  background: rgba(0, 0, 0, 0.6);
+  display: block;
+  margin-left: 320px;
+  margin-top: 30px;
+  height: 660px;
+  width: 445px;
+}
+.header-signin {
+  width: 100%;
+  height: 80%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/header-image.png);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+
+.header-signin h1 {
+  font-size: 32px;
+  padding: 65px;
+}
+
+.darkbox-signin input {
+  height: 50px;
+  width: 314px;
+  padding: 16px 20px 0;
+  background-color: #333;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  border-radius: 3px;
+}
+
+.darkbox-signin .box {
+  margin-left: 67px;
+  margin-bottom: 20px;
+}
+
+.darkbox-signin .box {
+  text-align: start;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.darkbox-signin .btn {
+  background-color: red;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-left: 67px;
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  display: flex;
+  height: 15px;
+  width: 15px;
+  margin-left: 70px;
+}
+
+#labelforcheckbox {
+  color: grey;
+  padding-left: 92px;
+  font-size: 13px;
+}
+
+.hybridsignin {
+  padding-left: 70px;
+  padding-top: 20px;
+  color: grey;
+  /* background-color: rgba(0, 0, 0, 0.6); */
+}
+
+.hybridsignin a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+.hybridsignin span {
+  display: flex;
+  margin-top: 20px;
+}
+
+.footer-signin {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-signin {
+  padding: 50px 15% 10px;
+  border-top: 6px solid #333;
+  color: #777;
+}
+
+.footer-signin h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.footer-signin .col {
+  flex-basis: 25%;
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+
+.footer-signin .col a {
+  display: block;
+  text-decoration: none;
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-signin .row {
+  align-items: flex-start;
+  padding: 10px 0;
+}
+
+.footer-signin .language-btn {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 450px) {
+  .logo {
+    width: 100px;
+  }
+
+  .darkbox-signin {
+    margin-left: 19px;
+    height: 530px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .darkbox-signin h1 {
+    font-size: 23px;
+  }
+
+  .darkbox-signin .box {
+    width: 220px;
+  }
+
+  .darkbox-signin .btn {
+    width: 220px;
+  }
+}
+
+.darkbox-signin FORM {
+  padding-right: 59px;
+}
+ .hybridsignin{
+  padding: 59PX;
+ }

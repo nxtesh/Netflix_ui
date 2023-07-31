@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header-signin">
+      <nav>
+        <img src="images/logo.png" class="logo" alt="" />
+      </nav>
+      <!-- <img src="images/header-image.png" alt=""> -->
+      <div class="darkbox-signin">
+        <form action="" method="post" enctype="multipart/form-data">
+          <h1>Sign In</h1>
+
+          <input
+            type="text"
+            name="name"
+            placeholder="Email or phone no."
+            required
+            maxlength="50"
+            class="box"
+          />
+
+          <input
+            type="password"
+            name="pass"
+            placeholder="Password"
+            required
+            maxlength="20"
+            class="box"
+          />
+
+          <input type="submit" value="Sign In" name="submit" class="btn" />
+          <div class="checkbox"><input type="checkbox" /></div>
+          <label for="checkbox" id="labelforcheckbox">Remember me</label>
+        </form>
+        <div class="hybridsignin">
+          New to Netflix? <a href="index.html">Sign Up now.</a>
+          <br>
+          <span>This page is protected by Google reCAPTCHA to ensure you're not a bot.</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-signin">
+      <h2>Questions? CALL - 00000-00000</h2>
+      <div class="row">
+        <div class="col">
+          <a href="#">FAQ</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Privacy</a>
+          <a href="#">Speed Test</a>
+        </div>
+
+        <div class="col">
+          <a href="#">Help center</a>
+          <a href="#">Jobs</a>
+          <a href="#">Cookies</a>
+          <a href="#">Legal Notice</a>
+        </div>
+
+        <div class="col">
+          <a href="#">account</a>
+          <a href="#">ways to watch</a>
+          <a href="#">CI</a>
+          <a href="#">only on Netfix</a>
+        </div>
+
+        <div class="col">
+          <a href="#">Media Center</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+      <button class="language-btn">
+        English <img src="images/down-icon.png" />
+      </button>
+    </div>
+    
+  </body>
+</html>
