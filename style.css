@@ -90,8 +90,6 @@ nav button {
   align-items: center;
   margin-top: 30px;
   overflow: hidden;
-
-  
 }
 
 .email-signup input {
@@ -318,8 +316,8 @@ input[type="radio"] {
     font-size: 22px;
   }
 }
+/* ------------------------------------------------signin--------------------------------------------------- */
 
-/* signin----------------------------- */
 #signin {
   text-decoration: none;
   color: white;
@@ -481,6 +479,82 @@ input[type="radio"] {
 .darkbox-signin FORM {
   padding-right: 59px;
 }
- .hybridsignin{
-  padding: 59PX;
- }
+
+.hybridsignin {
+  padding: 59px;
+}
+
+.needhelp {
+  text-decoration: none;
+  padding: 20px;
+  padding-left: 20px;
+  margin-left: 77px;
+  font-size: 13px;
+  color: grey;
+}
+/* -----------------------------------------help-------------------------------------------------------- */
+
+.header-help {
+  background-image: url(images/helpimg.jpg);
+}
+.main-help {
+  background-color: white;
+  color: black;
+  height: 500px;
+  width: 504px;
+  margin-left: 370px;
+  margin-top: 20px;
+}
+
+.header-help nav img {
+  width: 150px;
+  padding: 15px;
+}
+
+.main-help h1 {
+  padding: 20px 20px;
+}
+
+.main-help p {
+  padding: 10px 10px;
+  font-size: 18px;
+  padding-left: 20px;
+  width: 480px ;
+}
+
+.header-help button {
+  margin-right: 20px;
+}
+
+.help-checkbox1,
+.help-checkbox2 {
+  padding: 10px;
+  padding-left: 40px;
+  font-weight: 500;
+}
+
+#forgotpasswordinput{
+  width: 452px;
+  border-color: black;
+  border-radius: 2px;
+  padding: 10px 5px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.main-help button{
+  background-color: #0080ff;
+  color: white;
+  width: 452px ;
+  height: 40px;
+  font-size: 17px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#recaptcha{
+  color: grey;
+  padding: 10px;
+  padding-left: 368px;
+  font-size: 15px;
+}
